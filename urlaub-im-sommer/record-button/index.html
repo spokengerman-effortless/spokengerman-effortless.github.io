@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Susanne Richter German Tutoring -- 
+	Record Button.
+</title>
+	<script src="/jquery-3.5.1.min.js"></script>
+	<script src="/noveco.js"></script>
+	<script src="/recorder.js"></script>
+	<link rel="icon" href="/favicon.ico" type="image/png">
+	<link rel="stylesheet" href="/noveco.css">
+</head>
+
+<body>
+
+	<div id="noveco-content">
+		
+	<p>
+
+	
+	
+	
+
+	<center>
+
+	<button id="recorder0-recbtn"  class="noveco-imgbtn" onclick="document.recorder.record( 0 , 'recorder0');">
+		<img id="recorder0-mic"    src="/image/mic.png"   >
+		<img id="recorder0-speaka" src="/image/speak0.png">
+		<img id="recorder0-speakb" src="/image/speak1.png">
+		<img id="recorder0-speakc" src="/image/speak2.png">
+		<img id="recorder0-speakd" src="/image/speak3.png">
+		<img id="recorder0-loud"   src="/image/loud.png"  >
+	</button>
+	<button id="recorder0-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 0 , 'recorder0');" style="display: none;">
+		<img id="recorder0-play"   src="/image/play.png"  >
+	</button>
+
+	</center>
+
+	<script><!--
+		document.recorder = new Recorder( 1 );
+		document.recorder.button("recorder0");
+	--></script>
+
+
+
+
+
+	
+	
+	
+	
+	
+
+	<table class="noveco-ctltable">
+		<tr>
+			<td align="left">
+				
+					<button class="noveco-fontsizebtn" onclick="noveco_fontsize_inc();"><i><b>A</b>a</i><sup>+</sup></button>
+				
+			</td>
+			<td align="right">
+				
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+				
+					<button class="noveco-fontsizebtn" onclick="noveco_fontsize_dec();"><i>A<b>a</b></i><sup>-</sup></button>
+				
+			</td>
+			<td align="right">
+				
+					Recording:
+					<span id="noveco-reclen">5</span>s
+					<input type="range" min="3" max="30" value="5"
+						oninput="noveco_reclen(this.value);" onchange="noveco_reclen(this.value);">
+				
+			</td>
+		</tr>
+	</table>
+
+	<script><!--
+		noveco_reclen( 5 );
+		noveco_audiovol( 100 );
+	--></script>
+
+
+</p>
+
+
+	</div>
+
+</body>
+
+</html>
