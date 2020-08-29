@@ -102,6 +102,7 @@ input, select, textarea, button
 	font-style: italic;
 	padding-left: 5px;
 	padding-right: 5px;
+	white-space:nowrap;
 }
 
 #noveco-content a
