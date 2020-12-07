@@ -49,16 +49,16 @@
 				
 				<tr>
 					<td class="noveco-label">
-						<button class="noveco-imgbtn" onclick="noveco_audio_play_syl( 0 );">
+						<button class="noveco-imgbtn" onclick="noveco_audio_play_syl( 1 );">
 							<img src="/image/play.png">
 						</button>
 						
 						
-							<audio src="/audio/mein-tag/va/decision-a_com.mp3"
-								preload="auto" class="noveco-audio0"></audio>
+							<audio src="/audio/mein-tag/va/diary_com.mp3"
+								preload="auto" class="noveco-audio1"></audio>
 						
 					</td>
-					<td class="noveco-label noveco-row0" style="display: none;">
+					<td class="noveco-label noveco-row1" style="display: none;">
 						<table class="noveco-syltable">
 							<thead>
 								<tr>
@@ -66,7 +66,15 @@
 										
 										
 											<td align="center">
-											eine
+											Ta
+											</td>
+										
+											<td align="center">
+											ge
+											</td>
+										
+											<td align="center">
+											buch
 											</td>
 										
 										<td align="center">
@@ -76,15 +84,143 @@
 										
 										
 											<td align="center">
-											Ent
+											füh
 											</td>
 										
 											<td align="center">
-											schei
+											ren
 											</td>
 										
+										<td align="center">
+											&nbsp;&nbsp;
+										</td>
+									
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									
+										
+										
+										
+										
+										
 											<td align="center">
-											dung
+											
+												
+													<input type="radio" name="noveco-row1-tok0"
+														class="noveco-radio noveco-row1-tok0 noveco-solution"
+														onclick="noveco_syl_check( 1 ,  0 );">
+												
+											
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row1-tok0"
+														class="noveco-radio noveco-row1-tok0"
+														onclick="noveco_syl_check( 1 ,  0 );">
+												
+											
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row1-tok0"
+														class="noveco-radio noveco-row1-tok0"
+														onclick="noveco_syl_check( 1 ,  0 );">
+												
+											
+										
+										<td align="center">
+											&nbsp;&nbsp;&nbsp;
+											
+											
+												<audio src="/audio/mein-tag/va/diary_sig.mp3"
+													preload="auto" class="noveco-audio1-tok0"></audio>
+											
+											</td>
+										</td>
+									
+										
+										
+										
+										
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row1-tok1"
+														class="noveco-radio noveco-row1-tok1 noveco-solution"
+														onclick="noveco_syl_check( 1 ,  1 );">
+												
+											
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row1-tok1"
+														class="noveco-radio noveco-row1-tok1"
+														onclick="noveco_syl_check( 1 ,  1 );">
+												
+											
+										
+										<td align="center">
+											&nbsp;&nbsp;&nbsp;
+											
+											
+												<audio src="/audio/mein-tag/va/diary_verb.mp3"
+													preload="auto" class="noveco-audio1-tok1"></audio>
+											
+											</td>
+										</td>
+									
+								</tr>
+							</tbody>
+						</table>
+					</td>
+					<td class="noveco-label noveco-row1" style="display: none;">
+						<div class="noveco-recorder">
+							<button id="recorder1-recbtn" class="noveco-imgbtn" onclick="document.recorder.record( 1 , 'recorder1');">
+								<img id="recorder1-mic"    src="/image/mic.png"   >
+								<img id="recorder1-speaka" src="/image/speak0.png">
+								<img id="recorder1-speakb" src="/image/speak1.png">
+								<img id="recorder1-speakc" src="/image/speak2.png">
+								<img id="recorder1-speakd" src="/image/speak3.png">
+								<img id="recorder1-loud"   src="/image/loud.png"  >
+							</button>
+							<button id="recorder1-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 1 , 'recorder1');" style="display: none;">
+								<img id="recorder1-play"   src="/image/play.png"  >
+							</button>
+						</div>
+					</td>
+				</tr>
+			
+				
+				
+				
+				
+				
+				<tr>
+					<td class="noveco-label">
+						<button class="noveco-imgbtn" onclick="noveco_audio_play_syl( 4 );">
+							<img src="/image/play.png">
+						</button>
+						
+						
+							<audio src="/audio/mein-tag/va/soul_com.mp3"
+								preload="auto" class="noveco-audio4"></audio>
+						
+					</td>
+					<td class="noveco-label noveco-row4" style="display: none;">
+						<table class="noveco-syltable">
+							<thead>
+								<tr>
+									
+										
+										
+											<td align="center">
+											die
 											</td>
 										
 										<td align="center">
@@ -94,11 +230,29 @@
 										
 										
 											<td align="center">
-											tref
+											See
 											</td>
 										
 											<td align="center">
-											fen
+											le
+											</td>
+										
+										<td align="center">
+											&nbsp;&nbsp;
+										</td>
+									
+										
+										
+											<td align="center">
+											ver
+											</td>
+										
+											<td align="center">
+											wöh
+											</td>
+										
+											<td align="center">
+											nen
 											</td>
 										
 										<td align="center">
@@ -133,27 +287,18 @@
 											<td align="center">
 											
 												
-													<input type="radio" name="noveco-row0-tok1"
-														class="noveco-radio noveco-row0-tok1"
-														onclick="noveco_syl_check( 0 ,  1 );">
+													<input type="radio" name="noveco-row4-tok1"
+														class="noveco-radio noveco-row4-tok1 noveco-solution"
+														onclick="noveco_syl_check( 4 ,  1 );">
 												
 											
 										
 											<td align="center">
 											
 												
-													<input type="radio" name="noveco-row0-tok1"
-														class="noveco-radio noveco-row0-tok1 noveco-solution"
-														onclick="noveco_syl_check( 0 ,  1 );">
-												
-											
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row0-tok1"
-														class="noveco-radio noveco-row0-tok1"
-														onclick="noveco_syl_check( 0 ,  1 );">
+													<input type="radio" name="noveco-row4-tok1"
+														class="noveco-radio noveco-row4-tok1"
+														onclick="noveco_syl_check( 4 ,  1 );">
 												
 											
 										
@@ -161,8 +306,8 @@
 											&nbsp;&nbsp;&nbsp;
 											
 											
-												<audio src="/audio/mein-tag/va/decision-a_sig.mp3"
-													preload="auto" class="noveco-audio0-tok1"></audio>
+												<audio src="/audio/mein-tag/va/soul_sig.mp3"
+													preload="auto" class="noveco-audio4-tok1"></audio>
 											
 											</td>
 										</td>
@@ -175,18 +320,27 @@
 											<td align="center">
 											
 												
-													<input type="radio" name="noveco-row0-tok2"
-														class="noveco-radio noveco-row0-tok2 noveco-solution"
-														onclick="noveco_syl_check( 0 ,  2 );">
+													<input type="radio" name="noveco-row4-tok2"
+														class="noveco-radio noveco-row4-tok2"
+														onclick="noveco_syl_check( 4 ,  2 );">
 												
 											
 										
 											<td align="center">
 											
 												
-													<input type="radio" name="noveco-row0-tok2"
-														class="noveco-radio noveco-row0-tok2"
-														onclick="noveco_syl_check( 0 ,  2 );">
+													<input type="radio" name="noveco-row4-tok2"
+														class="noveco-radio noveco-row4-tok2 noveco-solution"
+														onclick="noveco_syl_check( 4 ,  2 );">
+												
+											
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row4-tok2"
+														class="noveco-radio noveco-row4-tok2"
+														onclick="noveco_syl_check( 4 ,  2 );">
 												
 											
 										
@@ -194,8 +348,8 @@
 											&nbsp;&nbsp;&nbsp;
 											
 											
-												<audio src="/audio/mein-tag/va/decision-a_verb.mp3"
-													preload="auto" class="noveco-audio0-tok2"></audio>
+												<audio src="/audio/mein-tag/va/soul_verb.mp3"
+													preload="auto" class="noveco-audio4-tok2"></audio>
 											
 											</td>
 										</td>
@@ -204,18 +358,18 @@
 							</tbody>
 						</table>
 					</td>
-					<td class="noveco-label noveco-row0" style="display: none;">
+					<td class="noveco-label noveco-row4" style="display: none;">
 						<div class="noveco-recorder">
-							<button id="recorder0-recbtn" class="noveco-imgbtn" onclick="document.recorder.record( 0 , 'recorder0');">
-								<img id="recorder0-mic"    src="/image/mic.png"   >
-								<img id="recorder0-speaka" src="/image/speak0.png">
-								<img id="recorder0-speakb" src="/image/speak1.png">
-								<img id="recorder0-speakc" src="/image/speak2.png">
-								<img id="recorder0-speakd" src="/image/speak3.png">
-								<img id="recorder0-loud"   src="/image/loud.png"  >
+							<button id="recorder4-recbtn" class="noveco-imgbtn" onclick="document.recorder.record( 4 , 'recorder4');">
+								<img id="recorder4-mic"    src="/image/mic.png"   >
+								<img id="recorder4-speaka" src="/image/speak0.png">
+								<img id="recorder4-speakb" src="/image/speak1.png">
+								<img id="recorder4-speakc" src="/image/speak2.png">
+								<img id="recorder4-speakd" src="/image/speak3.png">
+								<img id="recorder4-loud"   src="/image/loud.png"  >
 							</button>
-							<button id="recorder0-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 0 , 'recorder0');" style="display: none;">
-								<img id="recorder0-play"   src="/image/play.png"  >
+							<button id="recorder4-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 4 , 'recorder4');" style="display: none;">
+								<img id="recorder4-play"   src="/image/play.png"  >
 							</button>
 						</div>
 					</td>
@@ -753,185 +907,6 @@
 				
 				<tr>
 					<td class="noveco-label">
-						<button class="noveco-imgbtn" onclick="noveco_audio_play_syl( 4 );">
-							<img src="/image/play.png">
-						</button>
-						
-						
-							<audio src="/audio/mein-tag/va/soul_com.mp3"
-								preload="auto" class="noveco-audio4"></audio>
-						
-					</td>
-					<td class="noveco-label noveco-row4" style="display: none;">
-						<table class="noveco-syltable">
-							<thead>
-								<tr>
-									
-										
-										
-											<td align="center">
-											die
-											</td>
-										
-										<td align="center">
-											&nbsp;&nbsp;
-										</td>
-									
-										
-										
-											<td align="center">
-											See
-											</td>
-										
-											<td align="center">
-											le
-											</td>
-										
-										<td align="center">
-											&nbsp;&nbsp;
-										</td>
-									
-										
-										
-											<td align="center">
-											ver
-											</td>
-										
-											<td align="center">
-											wöh
-											</td>
-										
-											<td align="center">
-											nen
-											</td>
-										
-										<td align="center">
-											&nbsp;&nbsp;
-										</td>
-									
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									
-										
-										
-										
-										
-										
-											<td align="center">
-											
-										
-										<td align="center">
-											&nbsp;&nbsp;&nbsp;
-											
-											
-											</td>
-										</td>
-									
-										
-										
-										
-										
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row4-tok1"
-														class="noveco-radio noveco-row4-tok1 noveco-solution"
-														onclick="noveco_syl_check( 4 ,  1 );">
-												
-											
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row4-tok1"
-														class="noveco-radio noveco-row4-tok1"
-														onclick="noveco_syl_check( 4 ,  1 );">
-												
-											
-										
-										<td align="center">
-											&nbsp;&nbsp;&nbsp;
-											
-											
-												<audio src="/audio/mein-tag/va/soul_sig.mp3"
-													preload="auto" class="noveco-audio4-tok1"></audio>
-											
-											</td>
-										</td>
-									
-										
-										
-										
-										
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row4-tok2"
-														class="noveco-radio noveco-row4-tok2"
-														onclick="noveco_syl_check( 4 ,  2 );">
-												
-											
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row4-tok2"
-														class="noveco-radio noveco-row4-tok2 noveco-solution"
-														onclick="noveco_syl_check( 4 ,  2 );">
-												
-											
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row4-tok2"
-														class="noveco-radio noveco-row4-tok2"
-														onclick="noveco_syl_check( 4 ,  2 );">
-												
-											
-										
-										<td align="center">
-											&nbsp;&nbsp;&nbsp;
-											
-											
-												<audio src="/audio/mein-tag/va/soul_verb.mp3"
-													preload="auto" class="noveco-audio4-tok2"></audio>
-											
-											</td>
-										</td>
-									
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td class="noveco-label noveco-row4" style="display: none;">
-						<div class="noveco-recorder">
-							<button id="recorder4-recbtn" class="noveco-imgbtn" onclick="document.recorder.record( 4 , 'recorder4');">
-								<img id="recorder4-mic"    src="/image/mic.png"   >
-								<img id="recorder4-speaka" src="/image/speak0.png">
-								<img id="recorder4-speakb" src="/image/speak1.png">
-								<img id="recorder4-speakc" src="/image/speak2.png">
-								<img id="recorder4-speakd" src="/image/speak3.png">
-								<img id="recorder4-loud"   src="/image/loud.png"  >
-							</button>
-							<button id="recorder4-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 4 , 'recorder4');" style="display: none;">
-								<img id="recorder4-play"   src="/image/play.png"  >
-							</button>
-						</div>
-					</td>
-				</tr>
-			
-				
-				
-				
-				
-				
-				<tr>
-					<td class="noveco-label">
 						<button class="noveco-imgbtn" onclick="noveco_audio_play_syl( 6 );">
 							<img src="/image/play.png">
 						</button>
@@ -1087,6 +1062,185 @@
 							</button>
 							<button id="recorder6-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 6 , 'recorder6');" style="display: none;">
 								<img id="recorder6-play"   src="/image/play.png"  >
+							</button>
+						</div>
+					</td>
+				</tr>
+			
+				
+				
+				
+				
+				
+				<tr>
+					<td class="noveco-label">
+						<button class="noveco-imgbtn" onclick="noveco_audio_play_syl( 0 );">
+							<img src="/image/play.png">
+						</button>
+						
+						
+							<audio src="/audio/mein-tag/va/decision-a_com.mp3"
+								preload="auto" class="noveco-audio0"></audio>
+						
+					</td>
+					<td class="noveco-label noveco-row0" style="display: none;">
+						<table class="noveco-syltable">
+							<thead>
+								<tr>
+									
+										
+										
+											<td align="center">
+											eine
+											</td>
+										
+										<td align="center">
+											&nbsp;&nbsp;
+										</td>
+									
+										
+										
+											<td align="center">
+											Ent
+											</td>
+										
+											<td align="center">
+											schei
+											</td>
+										
+											<td align="center">
+											dung
+											</td>
+										
+										<td align="center">
+											&nbsp;&nbsp;
+										</td>
+									
+										
+										
+											<td align="center">
+											tref
+											</td>
+										
+											<td align="center">
+											fen
+											</td>
+										
+										<td align="center">
+											&nbsp;&nbsp;
+										</td>
+									
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									
+										
+										
+										
+										
+										
+											<td align="center">
+											
+										
+										<td align="center">
+											&nbsp;&nbsp;&nbsp;
+											
+											
+											</td>
+										</td>
+									
+										
+										
+										
+										
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row0-tok1"
+														class="noveco-radio noveco-row0-tok1"
+														onclick="noveco_syl_check( 0 ,  1 );">
+												
+											
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row0-tok1"
+														class="noveco-radio noveco-row0-tok1 noveco-solution"
+														onclick="noveco_syl_check( 0 ,  1 );">
+												
+											
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row0-tok1"
+														class="noveco-radio noveco-row0-tok1"
+														onclick="noveco_syl_check( 0 ,  1 );">
+												
+											
+										
+										<td align="center">
+											&nbsp;&nbsp;&nbsp;
+											
+											
+												<audio src="/audio/mein-tag/va/decision-a_sig.mp3"
+													preload="auto" class="noveco-audio0-tok1"></audio>
+											
+											</td>
+										</td>
+									
+										
+										
+										
+										
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row0-tok2"
+														class="noveco-radio noveco-row0-tok2 noveco-solution"
+														onclick="noveco_syl_check( 0 ,  2 );">
+												
+											
+										
+											<td align="center">
+											
+												
+													<input type="radio" name="noveco-row0-tok2"
+														class="noveco-radio noveco-row0-tok2"
+														onclick="noveco_syl_check( 0 ,  2 );">
+												
+											
+										
+										<td align="center">
+											&nbsp;&nbsp;&nbsp;
+											
+											
+												<audio src="/audio/mein-tag/va/decision-a_verb.mp3"
+													preload="auto" class="noveco-audio0-tok2"></audio>
+											
+											</td>
+										</td>
+									
+								</tr>
+							</tbody>
+						</table>
+					</td>
+					<td class="noveco-label noveco-row0" style="display: none;">
+						<div class="noveco-recorder">
+							<button id="recorder0-recbtn" class="noveco-imgbtn" onclick="document.recorder.record( 0 , 'recorder0');">
+								<img id="recorder0-mic"    src="/image/mic.png"   >
+								<img id="recorder0-speaka" src="/image/speak0.png">
+								<img id="recorder0-speakb" src="/image/speak1.png">
+								<img id="recorder0-speakc" src="/image/speak2.png">
+								<img id="recorder0-speakd" src="/image/speak3.png">
+								<img id="recorder0-loud"   src="/image/loud.png"  >
+							</button>
+							<button id="recorder0-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 0 , 'recorder0');" style="display: none;">
+								<img id="recorder0-play"   src="/image/play.png"  >
 							</button>
 						</div>
 					</td>
@@ -1271,160 +1425,6 @@
 					</td>
 				</tr>
 			
-				
-				
-				
-				
-				
-				<tr>
-					<td class="noveco-label">
-						<button class="noveco-imgbtn" onclick="noveco_audio_play_syl( 1 );">
-							<img src="/image/play.png">
-						</button>
-						
-						
-							<audio src="/audio/mein-tag/va/diary_com.mp3"
-								preload="auto" class="noveco-audio1"></audio>
-						
-					</td>
-					<td class="noveco-label noveco-row1" style="display: none;">
-						<table class="noveco-syltable">
-							<thead>
-								<tr>
-									
-										
-										
-											<td align="center">
-											Ta
-											</td>
-										
-											<td align="center">
-											ge
-											</td>
-										
-											<td align="center">
-											buch
-											</td>
-										
-										<td align="center">
-											&nbsp;&nbsp;
-										</td>
-									
-										
-										
-											<td align="center">
-											füh
-											</td>
-										
-											<td align="center">
-											ren
-											</td>
-										
-										<td align="center">
-											&nbsp;&nbsp;
-										</td>
-									
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									
-										
-										
-										
-										
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row1-tok0"
-														class="noveco-radio noveco-row1-tok0 noveco-solution"
-														onclick="noveco_syl_check( 1 ,  0 );">
-												
-											
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row1-tok0"
-														class="noveco-radio noveco-row1-tok0"
-														onclick="noveco_syl_check( 1 ,  0 );">
-												
-											
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row1-tok0"
-														class="noveco-radio noveco-row1-tok0"
-														onclick="noveco_syl_check( 1 ,  0 );">
-												
-											
-										
-										<td align="center">
-											&nbsp;&nbsp;&nbsp;
-											
-											
-												<audio src="/audio/mein-tag/va/diary_sig.mp3"
-													preload="auto" class="noveco-audio1-tok0"></audio>
-											
-											</td>
-										</td>
-									
-										
-										
-										
-										
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row1-tok1"
-														class="noveco-radio noveco-row1-tok1 noveco-solution"
-														onclick="noveco_syl_check( 1 ,  1 );">
-												
-											
-										
-											<td align="center">
-											
-												
-													<input type="radio" name="noveco-row1-tok1"
-														class="noveco-radio noveco-row1-tok1"
-														onclick="noveco_syl_check( 1 ,  1 );">
-												
-											
-										
-										<td align="center">
-											&nbsp;&nbsp;&nbsp;
-											
-											
-												<audio src="/audio/mein-tag/va/diary_verb.mp3"
-													preload="auto" class="noveco-audio1-tok1"></audio>
-											
-											</td>
-										</td>
-									
-								</tr>
-							</tbody>
-						</table>
-					</td>
-					<td class="noveco-label noveco-row1" style="display: none;">
-						<div class="noveco-recorder">
-							<button id="recorder1-recbtn" class="noveco-imgbtn" onclick="document.recorder.record( 1 , 'recorder1');">
-								<img id="recorder1-mic"    src="/image/mic.png"   >
-								<img id="recorder1-speaka" src="/image/speak0.png">
-								<img id="recorder1-speakb" src="/image/speak1.png">
-								<img id="recorder1-speakc" src="/image/speak2.png">
-								<img id="recorder1-speakd" src="/image/speak3.png">
-								<img id="recorder1-loud"   src="/image/loud.png"  >
-							</button>
-							<button id="recorder1-playbtn" class="noveco-imgbtn" onclick="document.recorder.play( 1 , 'recorder1');" style="display: none;">
-								<img id="recorder1-play"   src="/image/play.png"  >
-							</button>
-						</div>
-					</td>
-				</tr>
-			
 		</tbody>
 
 	</table>
@@ -1432,7 +1432,9 @@
 	<script><!--
 		document.recorder = new Recorder( 8 );
 		
-			document.recorder.button("recorder0");
+			document.recorder.button("recorder1");
+		
+			document.recorder.button("recorder4");
 		
 			document.recorder.button("recorder3");
 		
@@ -1440,13 +1442,11 @@
 		
 			document.recorder.button("recorder5");
 		
-			document.recorder.button("recorder4");
-		
 			document.recorder.button("recorder6");
 		
-			document.recorder.button("recorder7");
+			document.recorder.button("recorder0");
 		
-			document.recorder.button("recorder1");
+			document.recorder.button("recorder7");
 		
 	--></script>
 
